@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabel Contoh</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 20px;
+      }
+      table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        border: 2px solid #b65386;
+        background-color: #fff;
+      }
+      th,
+      td {
+        border: 1px solid #b65386;
+        padding: 12px;
+        text-align: center;
+      }
+      th {
+        background-color: #f3e2e4;
+        color: #000;
+        font-weight: bold;
+      }
+      td {
+        background-color: #f7e6ed;
+        color: #000;
+      }
+      tr:nth-child(even) td {
+        background-color: #f3d4e1;
+      }
+      th[rowspan="2"] {
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th rowspan="2">No.</th>
+        <th rowspan="2">Nama Sekolah</th>
+        <th colspan="2">Tahun</th>
+      </tr>
+      <tr>
+        <th>Masuk</th>
+        <th>Lulus</th>
+      </tr>
+      <tr>
+        <td>1.</td>
+        <td>TK Pembina</td>
+        <td>2011</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>SD Negeri Model Kota Malang</td>
+        <td>2012</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>SMP Negeri 4 Kepanjen</td>
+        <td>2018</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>SMA Negeri 1 Kepanjen</td>
+        <td>2021</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td>Universitas Brawijaya</td>
+        <td>2023</td>
+        <td>2027</td>
+      </tr>
+    </table>
+  </body>
+</html>
